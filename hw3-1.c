@@ -1,5 +1,5 @@
 /*
- *	in terminal: gcc hello.c -o hello.exe THEN ./hello.exe
+ *  Forks a child process that remains in system as a zombie for 10 seconds
  *  Created on: Sep 27, 2020
  *      Author: chiar
  */
