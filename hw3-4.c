@@ -1,3 +1,11 @@
+/*
+ * file copy program: should be run from command line in the format as follows: ./hw3-4.exe input.txt copy.txt
+ * program creates a pipe, writes content of the input file to it, then a forked child will read from pipe and 
+ * write to copy file.
+ *
+ */
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
