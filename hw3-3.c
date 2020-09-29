@@ -1,3 +1,11 @@
+/*
+ * Fork a child process which will use pipes to receive a string inputted to the parent, 
+ * then reverse the letter case of each character in the string. One pipe used for sending
+ * OG message, another used to send modified message.
+ *
+ */
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
