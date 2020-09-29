@@ -1,3 +1,10 @@
+/*
+ * Determines amount of time needed to run a command from the command line
+ * Returns elapsed time from running it by using IPC mechanism
+ *
+ */
+
+
 #include<stdio.h>
 #include<sys/time.h>
 #include<stdlib.h>
